@@ -1,0 +1,590 @@
+openapi: 3.0.3
+info:
+  title: API de Riesgo de Lesiones Deportivas
+  version: 1.0.0
+  description: >-
+    Diseño del servicio REST para gestión de deportistas, sesiones y lesiones,
+    con integración de datos externos meteorológicos en JSON y XML.
+servers:
+  - url: http://localhost:3000/api/v1
+    description: Local
+
+tags:
+  - name: Athletes
+  - name: Sessions
+  - name: Injuries
+  - name: External
+
+paths:
+  /athletes:
+    get:
+      tags: [Athletes]
+      summary: Listar deportistas
+      responses:
+        '200':
+          description: Lista de deportistas
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Athlete'
+    post:
+      tags: [Athletes]
+      summary: Crear deportista
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AthleteCreate'
+          application/xml:
+            schema:
+              $ref: '#/components/schemas/AthleteCreate'
+      responses:
+        '201':
+          description: Deportista creado
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Athlete'
+
+  /athletes/{athleteId}:
+    parameters:
+      - $ref: '#/components/parameters/AthleteId'
+    get:
+      tags: [Athletes]
+      summary: Obtener deportista por id
+      responses:
+        '200':
+          description: Deportista
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Athlete'
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/Athlete'
+        '404':
+          $ref: '#/components/responses/NotFound'
+    put:
+      tags: [Athletes]
+      summary: Actualizar deportista
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AthleteUpdate'
+      responses:
+        '200':
+          description: Deportista actualizado
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Athlete'
+        '404':
+          $ref: '#/components/responses/NotFound'
+    delete:
+      tags: [Athletes]
+      summary: Eliminar deportista
+      responses:
+        '204':
+          description: Eliminado
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+  /sessions:
+    get:
+      tags: [Sessions]
+      summary: Listar sesiones con paginación y filtros
+      parameters:
+        - name: page
+          in: query
+          schema:
+            type: integer
+            minimum: 1
+            default: 1
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 100
+            default: 20
+        - name: athleteId
+          in: query
+          schema:
+            type: string
+        - name: riskLevel
+          in: query
+          schema:
+            type: string
+            enum: [low, medium, high]
+        - name: weatherAlertLevel
+          in: query
+          schema:
+            type: string
+            enum: [none, low, moderate, high, extreme]
+        - name: from
+          in: query
+          schema:
+            type: string
+            format: date-time
+        - name: to
+          in: query
+          schema:
+            type: string
+            format: date-time
+      responses:
+        '200':
+          description: Resultado paginado
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PaginatedSessions'
+    post:
+      tags: [Sessions]
+      summary: Crear sesión de entrenamiento
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SessionCreate'
+      responses:
+        '201':
+          description: Sesión creada
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Session'
+
+  /sessions/{sessionId}:
+    parameters:
+      - $ref: '#/components/parameters/SessionId'
+    get:
+      tags: [Sessions]
+      summary: Obtener sesión por id
+      responses:
+        '200':
+          description: Sesión
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Session'
+        '404':
+          $ref: '#/components/responses/NotFound'
+    put:
+      tags: [Sessions]
+      summary: Actualizar sesión
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SessionUpdate'
+      responses:
+        '200':
+          description: Sesión actualizada
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Session'
+        '404':
+          $ref: '#/components/responses/NotFound'
+    delete:
+      tags: [Sessions]
+      summary: Eliminar sesión
+      responses:
+        '204':
+          description: Eliminada
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+  /injuries:
+    get:
+      tags: [Injuries]
+      summary: Listar lesiones
+      responses:
+        '200':
+          description: Lista de lesiones
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Injury'
+    post:
+      tags: [Injuries]
+      summary: Crear lesión
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/InjuryCreate'
+          application/xml:
+            schema:
+              $ref: '#/components/schemas/InjuryCreate'
+      responses:
+        '201':
+          description: Lesión creada
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Injury'
+
+  /injuries/{injuryId}:
+    parameters:
+      - $ref: '#/components/parameters/InjuryId'
+    get:
+      tags: [Injuries]
+      summary: Obtener lesión por id
+      responses:
+        '200':
+          description: Lesión
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Injury'
+        '404':
+          $ref: '#/components/responses/NotFound'
+    put:
+      tags: [Injuries]
+      summary: Actualizar lesión
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/InjuryUpdate'
+      responses:
+        '200':
+          description: Lesión actualizada
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Injury'
+        '404':
+          $ref: '#/components/responses/NotFound'
+    delete:
+      tags: [Injuries]
+      summary: Eliminar lesión
+      responses:
+        '204':
+          description: Eliminada
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+  /external/weather/refresh:
+    post:
+      tags: [External]
+      summary: Refrescar snapshot meteorológico desde API JSON
+      responses:
+        '200':
+          description: Snapshot actualizado
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ExternalRefreshResult'
+        '503':
+          $ref: '#/components/responses/ServiceUnavailable'
+
+  /external/alerts/refresh:
+    post:
+      tags: [External]
+      summary: Refrescar alertas desde feed XML
+      responses:
+        '200':
+          description: Alertas actualizadas
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ExternalRefreshResult'
+        '503':
+          $ref: '#/components/responses/ServiceUnavailable'
+
+  /external/status:
+    get:
+      tags: [External]
+      summary: Estado de integraciones externas
+      responses:
+        '200':
+          description: Estado de fuentes externas
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  weatherJson:
+                    type: string
+                    enum: [ok, degraded, unavailable]
+                  alertsXml:
+                    type: string
+                    enum: [ok, degraded, unavailable]
+                  lastSyncAt:
+                    type: string
+                    format: date-time
+
+components:
+  parameters:
+    AthleteId:
+      name: athleteId
+      in: path
+      required: true
+      schema:
+        type: string
+    SessionId:
+      name: sessionId
+      in: path
+      required: true
+      schema:
+        type: string
+    InjuryId:
+      name: injuryId
+      in: path
+      required: true
+      schema:
+        type: string
+
+  responses:
+    NotFound:
+      description: Recurso no encontrado
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ErrorResponse'
+    ServiceUnavailable:
+      description: Servicio externo no disponible
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ErrorResponse'
+
+  schemas:
+    Athlete:
+      type: object
+      xml:
+        name: Athlete
+      properties:
+        _id:
+          type: string
+        fullName:
+          type: string
+        birthDate:
+          type: string
+          format: date
+        sex:
+          type: string
+          enum: [male, female, other]
+        heightCm:
+          type: number
+        weightKg:
+          type: number
+        primarySport:
+          type: string
+        team:
+          type: string
+      required: [_id, fullName, birthDate, sex, primarySport]
+
+    AthleteCreate:
+      type: object
+      xml:
+        name: Athlete
+      properties:
+        fullName:
+          type: string
+        birthDate:
+          type: string
+          format: date
+        sex:
+          type: string
+          enum: [male, female, other]
+        heightCm:
+          type: number
+        weightKg:
+          type: number
+        primarySport:
+          type: string
+        team:
+          type: string
+      required: [fullName, birthDate, sex, primarySport]
+
+    AthleteUpdate:
+      allOf:
+        - $ref: '#/components/schemas/AthleteCreate'
+
+    SessionLocation:
+      type: object
+      properties:
+        name:
+          type: string
+        lat:
+          type: number
+        lon:
+          type: number
+        countryCode:
+          type: string
+      required: [lat, lon, countryCode]
+
+    Session:
+      type: object
+      properties:
+        _id:
+          type: string
+        athleteId:
+          type: string
+        sport:
+          type: string
+        sessionDate:
+          type: string
+          format: date-time
+        durationMinutes:
+          type: integer
+        load:
+          type: integer
+          minimum: 0
+          maximum: 100
+        surface:
+          type: string
+        location:
+          $ref: '#/components/schemas/SessionLocation'
+        weatherAlertLevel:
+          type: string
+          enum: [none, low, moderate, high, extreme]
+        riskLevel:
+          type: string
+          enum: [low, medium, high]
+        externalDataStatus:
+          type: string
+          enum: [ok, cached, unavailable]
+      required: [_id, athleteId, sport, sessionDate, durationMinutes]
+
+    SessionCreate:
+      type: object
+      properties:
+        athleteId:
+          type: string
+        sport:
+          type: string
+        sessionDate:
+          type: string
+          format: date-time
+        durationMinutes:
+          type: integer
+        load:
+          type: integer
+          minimum: 0
+          maximum: 100
+        surface:
+          type: string
+        location:
+          $ref: '#/components/schemas/SessionLocation'
+      required: [athleteId, sport, sessionDate, durationMinutes, location]
+
+    SessionUpdate:
+      allOf:
+        - $ref: '#/components/schemas/SessionCreate'
+
+    PaginatedSessions:
+      type: object
+      properties:
+        page:
+          type: integer
+        limit:
+          type: integer
+        total:
+          type: integer
+        totalPages:
+          type: integer
+        data:
+          type: array
+          items:
+            $ref: '#/components/schemas/Session'
+      required: [page, limit, total, totalPages, data]
+
+    Injury:
+      type: object
+      xml:
+        name: Injury
+      properties:
+        _id:
+          type: string
+        athleteId:
+          type: string
+        sessionId:
+          type: string
+          nullable: true
+        injuryDate:
+          type: string
+          format: date-time
+        injuryType:
+          type: string
+        bodyPart:
+          type: string
+        severity:
+          type: string
+          enum: [mild, moderate, severe]
+        daysOut:
+          type: integer
+        notes:
+          type: string
+      required: [_id, athleteId, injuryDate, injuryType, bodyPart, severity]
+
+    InjuryCreate:
+      type: object
+      xml:
+        name: Injury
+      properties:
+        athleteId:
+          type: string
+        sessionId:
+          type: string
+          nullable: true
+        injuryDate:
+          type: string
+          format: date-time
+        injuryType:
+          type: string
+        bodyPart:
+          type: string
+        severity:
+          type: string
+          enum: [mild, moderate, severe]
+        daysOut:
+          type: integer
+        notes:
+          type: string
+      required: [athleteId, injuryDate, injuryType, bodyPart, severity]
+
+    InjuryUpdate:
+      allOf:
+        - $ref: '#/components/schemas/InjuryCreate'
+
+    ExternalRefreshResult:
+      type: object
+      properties:
+        source:
+          type: string
+        status:
+          type: string
+          enum: [ok, cached, unavailable]
+        processedRecords:
+          type: integer
+        syncedAt:
+          type: string
+          format: date-time
+      required: [source, status, processedRecords, syncedAt]
+
+    ErrorResponse:
+      type: object
+      properties:
+        code:
+          type: string
+        message:
+          type: string
+        details:
+          type: object
+          additionalProperties: true
+      required: [code, message]
