@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="Athlete">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="fullName" type="xs:string"/>
+        <xs:element name="birthDate" type="xs:date"/>
+        <xs:element name="sex">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="male"/>
+              <xs:enumeration value="female"/>
+              <xs:enumeration value="other"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="heightCm" type="xs:decimal" minOccurs="0"/>
+        <xs:element name="weightKg" type="xs:decimal" minOccurs="0"/>
+        <xs:element name="primarySport" type="xs:string"/>
+        <xs:element name="team" type="xs:string" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

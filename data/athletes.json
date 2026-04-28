@@ -1,0 +1,1562 @@
+[
+  {
+    "_id": "69dd03f517f9f20dd626b966",
+    "fullName": "Athlete 1",
+    "birthDate": "2007-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 76.9,
+    "primarySport": "basketball",
+    "team": "Team 2"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b967",
+    "fullName": "Athlete 2",
+    "birthDate": "2001-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 72.8,
+    "primarySport": "track",
+    "team": "Team 3"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b968",
+    "fullName": "Athlete 3",
+    "birthDate": "2000-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 82.7,
+    "primarySport": "track",
+    "team": "Team 4"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b969",
+    "fullName": "Athlete 4",
+    "birthDate": "2000-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 62.3,
+    "primarySport": "soccer",
+    "team": "Team 5"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b96a",
+    "fullName": "Athlete 5",
+    "birthDate": "1996-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 73.2,
+    "primarySport": "other",
+    "team": "Team 6"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b96b",
+    "fullName": "Athlete 6",
+    "birthDate": "2003-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 61,
+    "primarySport": "other",
+    "team": "Team 7"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b96c",
+    "fullName": "Athlete 7",
+    "birthDate": "2003-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 78.3,
+    "primarySport": "soccer",
+    "team": "Team 8"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b96d",
+    "fullName": "Athlete 8",
+    "birthDate": "2000-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 66.6,
+    "primarySport": "soccer",
+    "team": "Team 9"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b96e",
+    "fullName": "Athlete 9",
+    "birthDate": "2001-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 78.4,
+    "primarySport": "soccer",
+    "team": "Team 10"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b96f",
+    "fullName": "Athlete 10",
+    "birthDate": "2006-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 63.7,
+    "primarySport": "other",
+    "team": "Team 11"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b970",
+    "fullName": "Athlete 11",
+    "birthDate": "1997-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 69.5,
+    "primarySport": "track",
+    "team": "Team 12"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b971",
+    "fullName": "Athlete 12",
+    "birthDate": "1998-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 71.5,
+    "primarySport": "soccer",
+    "team": "Team 1"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b972",
+    "fullName": "Athlete 13",
+    "birthDate": "1996-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 77.6,
+    "primarySport": "soccer",
+    "team": "Team 2"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b973",
+    "fullName": "Athlete 14",
+    "birthDate": "2001-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 66.2,
+    "primarySport": "basketball",
+    "team": "Team 3"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b974",
+    "fullName": "Athlete 15",
+    "birthDate": "2003-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 78.6,
+    "primarySport": "soccer",
+    "team": "Team 4"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b975",
+    "fullName": "Athlete 16",
+    "birthDate": "1995-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 65.7,
+    "primarySport": "soccer",
+    "team": "Team 5"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b976",
+    "fullName": "Athlete 17",
+    "birthDate": "1997-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 77.7,
+    "primarySport": "soccer",
+    "team": "Team 6"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b977",
+    "fullName": "Athlete 18",
+    "birthDate": "2001-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 65.3,
+    "primarySport": "track",
+    "team": "Team 7"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b978",
+    "fullName": "Athlete 19",
+    "birthDate": "2004-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 72.4,
+    "primarySport": "soccer",
+    "team": "Team 8"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b979",
+    "fullName": "Athlete 20",
+    "birthDate": "2001-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 63,
+    "primarySport": "track",
+    "team": "Team 9"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b97a",
+    "fullName": "Athlete 21",
+    "birthDate": "2004-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 60.6,
+    "primarySport": "basketball",
+    "team": "Team 10"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b97b",
+    "fullName": "Athlete 22",
+    "birthDate": "2002-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 66.2,
+    "primarySport": "soccer",
+    "team": "Team 11"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b97c",
+    "fullName": "Athlete 23",
+    "birthDate": "2000-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 68.7,
+    "primarySport": "basketball",
+    "team": "Team 12"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b97d",
+    "fullName": "Athlete 24",
+    "birthDate": "1992-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 82.9,
+    "primarySport": "track",
+    "team": "Team 1"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b97e",
+    "fullName": "Athlete 25",
+    "birthDate": "2003-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 73.3,
+    "primarySport": "basketball",
+    "team": "Team 2"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b97f",
+    "fullName": "Athlete 26",
+    "birthDate": "2002-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 58.5,
+    "primarySport": "track",
+    "team": "Team 3"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b980",
+    "fullName": "Athlete 27",
+    "birthDate": "2007-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 68.5,
+    "primarySport": "basketball",
+    "team": "Team 4"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b981",
+    "fullName": "Athlete 28",
+    "birthDate": "1995-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 72.2,
+    "primarySport": "other",
+    "team": "Team 5"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b982",
+    "fullName": "Athlete 29",
+    "birthDate": "2002-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 70.1,
+    "primarySport": "basketball",
+    "team": "Team 6"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b983",
+    "fullName": "Athlete 30",
+    "birthDate": "1999-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 80.3,
+    "primarySport": "basketball",
+    "team": "Team 7"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b984",
+    "fullName": "Athlete 31",
+    "birthDate": "1998-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 73.9,
+    "primarySport": "other",
+    "team": "Team 8"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b985",
+    "fullName": "Athlete 32",
+    "birthDate": "2005-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 67.5,
+    "primarySport": "soccer",
+    "team": "Team 9"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b986",
+    "fullName": "Athlete 33",
+    "birthDate": "2003-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 66.8,
+    "primarySport": "track",
+    "team": "Team 10"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b987",
+    "fullName": "Athlete 34",
+    "birthDate": "2004-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 77.4,
+    "primarySport": "other",
+    "team": "Team 11"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b988",
+    "fullName": "Athlete 35",
+    "birthDate": "2002-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 56.7,
+    "primarySport": "soccer",
+    "team": "Team 12"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b989",
+    "fullName": "Athlete 36",
+    "birthDate": "2000-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 85.9,
+    "primarySport": "basketball",
+    "team": "Team 1"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b98a",
+    "fullName": "Athlete 37",
+    "birthDate": "2001-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 71.4,
+    "primarySport": "track",
+    "team": "Team 2"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b98b",
+    "fullName": "Athlete 38",
+    "birthDate": "2005-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 67.4,
+    "primarySport": "other",
+    "team": "Team 3"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b98c",
+    "fullName": "Athlete 39",
+    "birthDate": "2005-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 75.7,
+    "primarySport": "other",
+    "team": "Team 4"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b98d",
+    "fullName": "Athlete 40",
+    "birthDate": "1996-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 70.4,
+    "primarySport": "other",
+    "team": "Team 5"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b98e",
+    "fullName": "Athlete 41",
+    "birthDate": "2006-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 78.8,
+    "primarySport": "track",
+    "team": "Team 6"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b98f",
+    "fullName": "Athlete 42",
+    "birthDate": "1997-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 70.4,
+    "primarySport": "soccer",
+    "team": "Team 7"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b990",
+    "fullName": "Athlete 43",
+    "birthDate": "1997-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 76,
+    "primarySport": "soccer",
+    "team": "Team 8"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b991",
+    "fullName": "Athlete 44",
+    "birthDate": "1995-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 79.4,
+    "primarySport": "other",
+    "team": "Team 9"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b992",
+    "fullName": "Athlete 45",
+    "birthDate": "2003-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 85,
+    "primarySport": "soccer",
+    "team": "Team 10"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b993",
+    "fullName": "Athlete 46",
+    "birthDate": "2003-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 66.1,
+    "primarySport": "basketball",
+    "team": "Team 11"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b994",
+    "fullName": "Athlete 47",
+    "birthDate": "1996-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 67.5,
+    "primarySport": "track",
+    "team": "Team 12"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b995",
+    "fullName": "Athlete 48",
+    "birthDate": "1997-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 65.6,
+    "primarySport": "other",
+    "team": "Team 1"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b996",
+    "fullName": "Athlete 49",
+    "birthDate": "2007-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 73.8,
+    "primarySport": "basketball",
+    "team": "Team 2"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b997",
+    "fullName": "Athlete 50",
+    "birthDate": "1998-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 71.2,
+    "primarySport": "track",
+    "team": "Team 3"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b998",
+    "fullName": "Athlete 51",
+    "birthDate": "2005-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 56.7,
+    "primarySport": "basketball",
+    "team": "Team 4"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b999",
+    "fullName": "Athlete 52",
+    "birthDate": "1997-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 63.2,
+    "primarySport": "soccer",
+    "team": "Team 5"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b99a",
+    "fullName": "Athlete 53",
+    "birthDate": "1997-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 66.5,
+    "primarySport": "soccer",
+    "team": "Team 6"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b99b",
+    "fullName": "Athlete 54",
+    "birthDate": "2001-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 86.7,
+    "primarySport": "track",
+    "team": "Team 7"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b99c",
+    "fullName": "Athlete 55",
+    "birthDate": "1996-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 64.8,
+    "primarySport": "basketball",
+    "team": "Team 8"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b99d",
+    "fullName": "Athlete 56",
+    "birthDate": "1999-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 66.6,
+    "primarySport": "basketball",
+    "team": "Team 9"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b99e",
+    "fullName": "Athlete 57",
+    "birthDate": "2007-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 74.3,
+    "primarySport": "basketball",
+    "team": "Team 10"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b99f",
+    "fullName": "Athlete 58",
+    "birthDate": "2005-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 56.7,
+    "primarySport": "other",
+    "team": "Team 11"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9a0",
+    "fullName": "Athlete 59",
+    "birthDate": "1996-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 75.8,
+    "primarySport": "basketball",
+    "team": "Team 12"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9a1",
+    "fullName": "Athlete 60",
+    "birthDate": "1997-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 78.8,
+    "primarySport": "basketball",
+    "team": "Team 1"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9a2",
+    "fullName": "Athlete 61",
+    "birthDate": "2000-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 73.7,
+    "primarySport": "track",
+    "team": "Team 2"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9a3",
+    "fullName": "Athlete 62",
+    "birthDate": "2002-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 69.8,
+    "primarySport": "soccer",
+    "team": "Team 3"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9a4",
+    "fullName": "Athlete 63",
+    "birthDate": "2001-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 66.1,
+    "primarySport": "soccer",
+    "team": "Team 4"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9a5",
+    "fullName": "Athlete 64",
+    "birthDate": "2007-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 68.3,
+    "primarySport": "other",
+    "team": "Team 5"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9a6",
+    "fullName": "Athlete 65",
+    "birthDate": "2003-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 68.7,
+    "primarySport": "track",
+    "team": "Team 6"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9a7",
+    "fullName": "Athlete 66",
+    "birthDate": "2007-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 79.4,
+    "primarySport": "soccer",
+    "team": "Team 7"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9a8",
+    "fullName": "Athlete 67",
+    "birthDate": "1997-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 83.8,
+    "primarySport": "basketball",
+    "team": "Team 8"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9a9",
+    "fullName": "Athlete 68",
+    "birthDate": "2000-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 69.8,
+    "primarySport": "soccer",
+    "team": "Team 9"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9aa",
+    "fullName": "Athlete 69",
+    "birthDate": "2002-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 60.2,
+    "primarySport": "basketball",
+    "team": "Team 10"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9ab",
+    "fullName": "Athlete 70",
+    "birthDate": "1996-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 68.2,
+    "primarySport": "other",
+    "team": "Team 11"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9ac",
+    "fullName": "Athlete 71",
+    "birthDate": "2001-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 69.3,
+    "primarySport": "basketball",
+    "team": "Team 12"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9ad",
+    "fullName": "Athlete 72",
+    "birthDate": "1996-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 71.2,
+    "primarySport": "track",
+    "team": "Team 1"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9ae",
+    "fullName": "Athlete 73",
+    "birthDate": "2005-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 66.2,
+    "primarySport": "track",
+    "team": "Team 2"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9af",
+    "fullName": "Athlete 74",
+    "birthDate": "2002-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 86.7,
+    "primarySport": "soccer",
+    "team": "Team 3"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9b0",
+    "fullName": "Athlete 75",
+    "birthDate": "1998-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 64.7,
+    "primarySport": "soccer",
+    "team": "Team 4"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9b1",
+    "fullName": "Athlete 76",
+    "birthDate": "2003-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 80.2,
+    "primarySport": "soccer",
+    "team": "Team 5"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9b2",
+    "fullName": "Athlete 77",
+    "birthDate": "2001-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 66.4,
+    "primarySport": "soccer",
+    "team": "Team 6"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9b3",
+    "fullName": "Athlete 78",
+    "birthDate": "2007-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 64.8,
+    "primarySport": "soccer",
+    "team": "Team 7"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9b4",
+    "fullName": "Athlete 79",
+    "birthDate": "2006-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 81.2,
+    "primarySport": "basketball",
+    "team": "Team 8"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9b5",
+    "fullName": "Athlete 80",
+    "birthDate": "2002-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 69.7,
+    "primarySport": "basketball",
+    "team": "Team 9"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9b6",
+    "fullName": "Athlete 81",
+    "birthDate": "2007-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 69.7,
+    "primarySport": "track",
+    "team": "Team 10"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9b7",
+    "fullName": "Athlete 82",
+    "birthDate": "1997-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 64.4,
+    "primarySport": "track",
+    "team": "Team 11"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9b8",
+    "fullName": "Athlete 83",
+    "birthDate": "2000-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 75.7,
+    "primarySport": "basketball",
+    "team": "Team 12"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9b9",
+    "fullName": "Athlete 84",
+    "birthDate": "1999-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 61.7,
+    "primarySport": "basketball",
+    "team": "Team 1"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9ba",
+    "fullName": "Athlete 85",
+    "birthDate": "2007-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 70.5,
+    "primarySport": "track",
+    "team": "Team 2"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9bb",
+    "fullName": "Athlete 86",
+    "birthDate": "2004-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 68,
+    "primarySport": "other",
+    "team": "Team 3"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9bc",
+    "fullName": "Athlete 87",
+    "birthDate": "1994-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 62.4,
+    "primarySport": "soccer",
+    "team": "Team 4"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9bd",
+    "fullName": "Athlete 88",
+    "birthDate": "2003-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 77.8,
+    "primarySport": "basketball",
+    "team": "Team 5"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9be",
+    "fullName": "Athlete 89",
+    "birthDate": "2004-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 78,
+    "primarySport": "track",
+    "team": "Team 6"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9bf",
+    "fullName": "Athlete 90",
+    "birthDate": "1999-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 80.5,
+    "primarySport": "track",
+    "team": "Team 7"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9c0",
+    "fullName": "Athlete 91",
+    "birthDate": "1998-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 76.3,
+    "primarySport": "soccer",
+    "team": "Team 8"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9c1",
+    "fullName": "Athlete 92",
+    "birthDate": "1994-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 61.4,
+    "primarySport": "soccer",
+    "team": "Team 9"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9c2",
+    "fullName": "Athlete 93",
+    "birthDate": "2006-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 61.9,
+    "primarySport": "track",
+    "team": "Team 10"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9c3",
+    "fullName": "Athlete 94",
+    "birthDate": "1993-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 76.6,
+    "primarySport": "soccer",
+    "team": "Team 11"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9c4",
+    "fullName": "Athlete 95",
+    "birthDate": "2007-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 75.5,
+    "primarySport": "basketball",
+    "team": "Team 12"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9c5",
+    "fullName": "Athlete 96",
+    "birthDate": "2000-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 66.2,
+    "primarySport": "other",
+    "team": "Team 1"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9c6",
+    "fullName": "Athlete 97",
+    "birthDate": "2002-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 60.6,
+    "primarySport": "soccer",
+    "team": "Team 2"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9c7",
+    "fullName": "Athlete 98",
+    "birthDate": "1997-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 64.4,
+    "primarySport": "track",
+    "team": "Team 3"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9c8",
+    "fullName": "Athlete 99",
+    "birthDate": "2003-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 68.3,
+    "primarySport": "track",
+    "team": "Team 4"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9c9",
+    "fullName": "Athlete 100",
+    "birthDate": "2001-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 69.9,
+    "primarySport": "other",
+    "team": "Team 5"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9ca",
+    "fullName": "Athlete 101",
+    "birthDate": "2002-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 74.7,
+    "primarySport": "basketball",
+    "team": "Team 6"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9cb",
+    "fullName": "Athlete 102",
+    "birthDate": "2000-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 72.6,
+    "primarySport": "track",
+    "team": "Team 7"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9cc",
+    "fullName": "Athlete 103",
+    "birthDate": "2003-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 68.9,
+    "primarySport": "soccer",
+    "team": "Team 8"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9cd",
+    "fullName": "Athlete 104",
+    "birthDate": "2007-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 75.4,
+    "primarySport": "soccer",
+    "team": "Team 9"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9ce",
+    "fullName": "Athlete 105",
+    "birthDate": "2005-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 76.8,
+    "primarySport": "basketball",
+    "team": "Team 10"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9cf",
+    "fullName": "Athlete 106",
+    "birthDate": "2007-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 57.2,
+    "primarySport": "other",
+    "team": "Team 11"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9d0",
+    "fullName": "Athlete 107",
+    "birthDate": "2007-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 82.8,
+    "primarySport": "soccer",
+    "team": "Team 12"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9d1",
+    "fullName": "Athlete 108",
+    "birthDate": "2003-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 74.2,
+    "primarySport": "other",
+    "team": "Team 1"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9d2",
+    "fullName": "Athlete 109",
+    "birthDate": "2007-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 64.2,
+    "primarySport": "track",
+    "team": "Team 2"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9d3",
+    "fullName": "Athlete 110",
+    "birthDate": "2003-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 74.4,
+    "primarySport": "track",
+    "team": "Team 3"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9d4",
+    "fullName": "Athlete 111",
+    "birthDate": "1993-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 66.9,
+    "primarySport": "soccer",
+    "team": "Team 4"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9d5",
+    "fullName": "Athlete 112",
+    "birthDate": "1998-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 63.3,
+    "primarySport": "track",
+    "team": "Team 5"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9d6",
+    "fullName": "Athlete 113",
+    "birthDate": "1991-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 69.6,
+    "primarySport": "track",
+    "team": "Team 6"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9d7",
+    "fullName": "Athlete 114",
+    "birthDate": "2000-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 72.2,
+    "primarySport": "basketball",
+    "team": "Team 7"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9d8",
+    "fullName": "Athlete 115",
+    "birthDate": "2001-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 70.1,
+    "primarySport": "basketball",
+    "team": "Team 8"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9d9",
+    "fullName": "Athlete 116",
+    "birthDate": "1997-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 61.5,
+    "primarySport": "track",
+    "team": "Team 9"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9da",
+    "fullName": "Athlete 117",
+    "birthDate": "2001-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 70.8,
+    "primarySport": "other",
+    "team": "Team 10"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9db",
+    "fullName": "Athlete 118",
+    "birthDate": "1996-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 63.1,
+    "primarySport": "other",
+    "team": "Team 11"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9dc",
+    "fullName": "Athlete 119",
+    "birthDate": "2007-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 78.1,
+    "primarySport": "soccer",
+    "team": "Team 12"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9dd",
+    "fullName": "Athlete 120",
+    "birthDate": "2001-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 74.8,
+    "primarySport": "soccer",
+    "team": "Team 1"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9de",
+    "fullName": "Athlete 121",
+    "birthDate": "2002-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 77.6,
+    "primarySport": "basketball",
+    "team": "Team 2"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9df",
+    "fullName": "Athlete 122",
+    "birthDate": "2006-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 78.3,
+    "primarySport": "track",
+    "team": "Team 3"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9e0",
+    "fullName": "Athlete 123",
+    "birthDate": "1999-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 72.4,
+    "primarySport": "track",
+    "team": "Team 4"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9e1",
+    "fullName": "Athlete 124",
+    "birthDate": "2005-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 78.5,
+    "primarySport": "soccer",
+    "team": "Team 5"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9e2",
+    "fullName": "Athlete 125",
+    "birthDate": "1995-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 81.6,
+    "primarySport": "soccer",
+    "team": "Team 6"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9e3",
+    "fullName": "Athlete 126",
+    "birthDate": "2006-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 70.9,
+    "primarySport": "basketball",
+    "team": "Team 7"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9e4",
+    "fullName": "Athlete 127",
+    "birthDate": "2000-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 57.5,
+    "primarySport": "soccer",
+    "team": "Team 8"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9e5",
+    "fullName": "Athlete 128",
+    "birthDate": "2003-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 77.3,
+    "primarySport": "track",
+    "team": "Team 9"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9e6",
+    "fullName": "Athlete 129",
+    "birthDate": "1999-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 73.3,
+    "primarySport": "soccer",
+    "team": "Team 10"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9e7",
+    "fullName": "Athlete 130",
+    "birthDate": "1999-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 69.8,
+    "primarySport": "basketball",
+    "team": "Team 11"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9e8",
+    "fullName": "Athlete 131",
+    "birthDate": "1999-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 69.7,
+    "primarySport": "basketball",
+    "team": "Team 12"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9e9",
+    "fullName": "Athlete 132",
+    "birthDate": "2006-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 68.7,
+    "primarySport": "soccer",
+    "team": "Team 1"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9ea",
+    "fullName": "Athlete 133",
+    "birthDate": "2004-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 65.6,
+    "primarySport": "other",
+    "team": "Team 2"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9eb",
+    "fullName": "Athlete 134",
+    "birthDate": "1997-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 58.8,
+    "primarySport": "basketball",
+    "team": "Team 3"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9ec",
+    "fullName": "Athlete 135",
+    "birthDate": "1994-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 56.7,
+    "primarySport": "track",
+    "team": "Team 4"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9ed",
+    "fullName": "Athlete 136",
+    "birthDate": "2000-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 68.3,
+    "primarySport": "track",
+    "team": "Team 5"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9ee",
+    "fullName": "Athlete 137",
+    "birthDate": "1991-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 56.7,
+    "primarySport": "soccer",
+    "team": "Team 6"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9ef",
+    "fullName": "Athlete 138",
+    "birthDate": "2000-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 61.6,
+    "primarySport": "basketball",
+    "team": "Team 7"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9f0",
+    "fullName": "Athlete 139",
+    "birthDate": "1998-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 64.7,
+    "primarySport": "track",
+    "team": "Team 8"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9f1",
+    "fullName": "Athlete 140",
+    "birthDate": "1996-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 71.6,
+    "primarySport": "track",
+    "team": "Team 9"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9f2",
+    "fullName": "Athlete 141",
+    "birthDate": "2002-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 86.1,
+    "primarySport": "basketball",
+    "team": "Team 10"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9f3",
+    "fullName": "Athlete 142",
+    "birthDate": "2001-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 73.5,
+    "primarySport": "soccer",
+    "team": "Team 11"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9f4",
+    "fullName": "Athlete 143",
+    "birthDate": "2003-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 78.7,
+    "primarySport": "soccer",
+    "team": "Team 12"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9f5",
+    "fullName": "Athlete 144",
+    "birthDate": "2006-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 71.6,
+    "primarySport": "basketball",
+    "team": "Team 1"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9f6",
+    "fullName": "Athlete 145",
+    "birthDate": "2007-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 72.5,
+    "primarySport": "soccer",
+    "team": "Team 2"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9f7",
+    "fullName": "Athlete 146",
+    "birthDate": "2002-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 80,
+    "primarySport": "track",
+    "team": "Team 3"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9f8",
+    "fullName": "Athlete 147",
+    "birthDate": "2001-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 75,
+    "primarySport": "other",
+    "team": "Team 4"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9f9",
+    "fullName": "Athlete 148",
+    "birthDate": "2004-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 73.4,
+    "primarySport": "soccer",
+    "team": "Team 5"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9fa",
+    "fullName": "Athlete 149",
+    "birthDate": "2004-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 84.5,
+    "primarySport": "basketball",
+    "team": "Team 6"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9fb",
+    "fullName": "Athlete 150",
+    "birthDate": "2002-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 71.1,
+    "primarySport": "basketball",
+    "team": "Team 7"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9fc",
+    "fullName": "Athlete 151",
+    "birthDate": "2002-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 76.7,
+    "primarySport": "basketball",
+    "team": "Team 8"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9fd",
+    "fullName": "Athlete 152",
+    "birthDate": "2003-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 67.4,
+    "primarySport": "track",
+    "team": "Team 9"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9fe",
+    "fullName": "Athlete 153",
+    "birthDate": "2001-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 74,
+    "primarySport": "other",
+    "team": "Team 10"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626b9ff",
+    "fullName": "Athlete 154",
+    "birthDate": "2005-12-31T23:00:00.000Z",
+    "sex": "female",
+    "heightCm": 175,
+    "weightKg": 63.7,
+    "primarySport": "track",
+    "team": "Team 11"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626ba00",
+    "fullName": "Athlete 155",
+    "birthDate": "2003-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 66.8,
+    "primarySport": "track",
+    "team": "Team 12"
+  },
+  {
+    "_id": "69dd03f517f9f20dd626ba01",
+    "fullName": "Athlete 156",
+    "birthDate": "2004-12-31T23:00:00.000Z",
+    "sex": "male",
+    "heightCm": 175,
+    "weightKg": 69.8,
+    "primarySport": "soccer",
+    "team": "Team 1"
+  }
+]
