@@ -5,7 +5,7 @@ const { Types } = require('mongoose');
 
 const rootDir = path.join(__dirname, '..');
 const outDir = path.join(rootDir, 'data');
-const csvPath = path.join(rootDir, 'archive (1)', 'multimodal_sports_injury_dataset.csv');
+const csvPath = path.join(rootDir, 'archive', 'multimodal_sports_injury_dataset.csv');
 
 function toNumber(value, fallback = null) {
   const n = Number(value);
