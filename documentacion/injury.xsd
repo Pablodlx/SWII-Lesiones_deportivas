@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:simpleType name="ObjectIdHex">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9a-fA-F]{24}"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="Severity">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="mild"/>
+      <xs:enumeration value="moderate"/>
+      <xs:enumeration value="severe"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:element name="Injury">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="athleteId" type="ObjectIdHex">
+          <xs:annotation>
+            <xs:documentation>Referencia al _id del recurso Athlete propietario de la lesión.</xs:documentation>
+          </xs:annotation>
+        </xs:element>
+        <xs:element name="sessionId" type="ObjectIdHex" minOccurs="0">
+          <xs:annotation>
+            <xs:documentation>Referencia opcional al _id del recurso TrainingSession en el que ocurrió la lesión.</xs:documentation>
+          </xs:annotation>
+        </xs:element>
+        <xs:element name="injuryDate" type="xs:dateTime"/>
+        <xs:element name="injuryType" type="xs:string"/>
+        <xs:element name="bodyPart" type="xs:string"/>
+        <xs:element name="severity" type="Severity"/>
+        <xs:element name="daysOut" type="xs:integer" minOccurs="0"/>
+        <xs:element name="notes" type="xs:string" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

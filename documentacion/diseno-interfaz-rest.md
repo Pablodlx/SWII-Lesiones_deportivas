@@ -10,11 +10,24 @@ Se definen 4 colecciones en MongoDB:
 - `injuries` (lesiones)
 - `external_weather_snapshots` (clima externo cacheado)
 
-Relaciones:
-- Un `athlete` tiene muchas `training_sessions`.
-- Un `athlete` tiene muchas `injuries`.
-- Una `training_session` puede relacionarse con una `injury` (si ocurrió durante o tras la sesión).
-- Una `training_session` referencia un `weather_snapshot` externo.
+Relaciones (modelo lógico):
+
+```
+Athlete  1 ─── N  TrainingSession
+   │
+   └── 1 ─── N  Injury
+                  │
+                  └── 0..1  TrainingSession
+```
+
+- Un `athlete` tiene muchas `training_sessions` (FK `athleteId` en sesión).
+- Un `athlete` tiene muchas `injuries` (FK `athleteId` en lesión).
+- Una `injury` puede asociarse opcionalmente a una `training_session` (FK `sessionId`, nullable) si ocurrió durante esa sesión.
+- Una `training_session` referencia un `weather_snapshot` externo (FK `weatherSnapshotId`).
+
+Las relaciones se navegan en la API por dos vías:
+1. **Por filtro**: `GET /sessions?athleteId=...`, `GET /injuries?athleteId=...`, `GET /injuries?sessionId=...`.
+2. **Por rutas anidadas** (ver §5.5): `GET /athletes/{athleteId}/sessions`, `GET /athletes/{athleteId}/injuries`, `GET /sessions/{sessionId}/injuries`.
 
 ## 3. APIs externas seleccionadas
 ### API externa JSON
@@ -67,9 +80,22 @@ Filtros y paginación en `GET /sessions`:
 - `POST /external/alerts/refresh` (actualiza alertas XML)
 - `GET /external/status`
 
+### 5.5 Rutas anidadas (relaciones explícitas)
+Hacen explícita en la URL la relación entre recursos, complementando las rutas planas:
+- `GET /athletes/{athleteId}/sessions` — sesiones del atleta (paginadas, mismos filtros que `/sessions`).
+- `POST /athletes/{athleteId}/sessions` — crear sesión asociada al atleta (no hace falta `athleteId` en el body).
+- `GET /athletes/{athleteId}/injuries` — lesiones del atleta.
+- `POST /athletes/{athleteId}/injuries` — crear lesión asociada al atleta (no hace falta `athleteId` en el body; `sessionId` sigue opcional).
+- `GET /sessions/{sessionId}/injuries` — lesiones asociadas a una sesión.
+
+### 5.6 Otros
+- `GET /health` — liveness probe.
+
 ## 6. Formatos de mensajes
 - Formato por defecto: `application/json`.
-- También se soporta `application/xml` en endpoints seleccionados (`POST /athletes`, `GET /athletes/{athleteId}`, `POST /injuries`), con esquema XML definido en OpenAPI.
+- También se soporta `application/xml` en endpoints seleccionados (`POST /athletes`, `GET /athletes/{athleteId}`, `POST /injuries`, `POST /athletes/{athleteId}/injuries`), con esquemas XML asociados:
+  - `documentacion/athlete.xsd`
+  - `documentacion/injury.xsd`
 
 ## 7. Ejemplos de mensajes
 ### 7.1 Ejemplo JSON (POST /sessions)
