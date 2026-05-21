@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SWII Lesiones API · Aurora</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-mark">SW</div>
+        <div class="brand-text">
+          <h1>SWII Lesiones API</h1>
+          <p>Aurora · Panel interactivo · 23 endpoints REST</p>
+        </div>
+      </div>
+      <div class="status-pill" id="status" data-state="loading">
+        <span class="status-dot"></span>
+        <span id="status-label">Conectando…</span>
+      </div>
+    </header>
+
+    <div class="layout">
+      <aside class="sidebar" id="sidebar"></aside>
+      <main class="detail" id="detail">
+        <div class="empty-state">
+          <div class="icon">◆</div>
+          <p>Selecciona un endpoint de la izquierda para ver el detalle y probarlo.</p>
+        </div>
+      </main>
+    </div>
+
+    <section class="quick-tests">
+      <h2>Pruebas rápidas</h2>
+      <p>Ejecuta este flujo en orden para verificar que la API responde de extremo a extremo, incluyendo enriquecimiento meteorológico y cálculo de riesgo.</p>
+      <div class="quick-grid" id="quick-grid"></div>
+      <div class="quick-result" id="quick-result"></div>
+    </section>
+  </div>
+
+  <script src="/endpoints.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>

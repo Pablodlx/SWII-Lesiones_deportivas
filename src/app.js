@@ -1,3 +1,4 @@
+const path = require('path');
 const express = require('express');
 const Athlete = require('./models/athlete');
 const TrainingSession = require('./models/session');
@@ -8,6 +9,7 @@ const { fetchWeatherJson, fetchAlertsXml, computeRisk } = require('./services/ex
 const app = express();
 app.use(express.json({ limit: '1mb' }));
 app.use(express.text({ type: ['application/xml', 'text/xml'], limit: '1mb' }));
+app.use(express.static(path.join(__dirname, '..', 'public')));
 
 function respond(req, res, root, payload, status = 200) {
   const accept = req.headers.accept || '';
