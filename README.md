@@ -18,7 +18,7 @@ El proyecto incluye una **interfaz Aurora** servida por la propia API: al arranc
 8. [Estructura del repositorio](#estructura-del-repositorio)
 9. [Documentación adicional](#documentación-adicional)
 10. [Troubleshooting](#troubleshooting)
-11. [Créditos](#créditos)
+11. [Alumnos](#alumnos)
 
 ---
 
@@ -260,9 +260,9 @@ Verifica que tu IP está en la whitelist del cluster y que la cadena en `MONGO_U
 
 ---
 
-## Créditos
+## Alumnos
 
-**Grupo de Sistemas Web II — CEU San Pablo:**
+
 
 - Pablo de la Cruz
 - Enrique Muñoz
