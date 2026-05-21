@@ -4,8 +4,6 @@ API REST sobre **lesiones deportivas** con enriquecimiento meteorológico en tie
 
 El proyecto incluye una **interfaz Aurora** servida por la propia API: al arrancar, abre `http://localhost:3000/` y verás todos los endpoints documentados y un botón "Probar" en cada uno para ejecutar llamadas reales sin tocar `curl`.
 
-> Trabajo académico de Sistemas Web II — Universidad CEU San Pablo.
-
 ---
 
 ## Tabla de contenidos
